@@ -8,6 +8,7 @@ def Onstart():
         print(b)
         time.sleep(1)
         b = b + 1
+        os.system("/usr/bin/mosquitto_pub -h 127.0.0.1 -t ch1/temp -m " + str(b))
 
 
 def Oncreate():
