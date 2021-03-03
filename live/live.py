@@ -7,7 +7,7 @@ def Onstart():
     while 1:
         print(b)
         time.sleep(0.5)
-        b = b + 2
+        b = b + 3
 
 
 def Oncreate():
